@@ -1,5 +1,6 @@
 import requests
 
+
 def check_website_status(url):
     try:
         response = requests.get(url)
